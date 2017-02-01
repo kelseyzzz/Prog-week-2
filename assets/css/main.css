@@ -48,15 +48,9 @@ p {
   padding: 0 30px; }
   .todo-list .todo-item {
     padding: 10px 0; }
-    .todo-list .todo-item:after {
-      display: inline-block;
-      box-sizing: border-box;
-      content: "x";
-      padding: 8px;
-      background: red;
-      border-radius: 12px;
-      color: white; }
     .todo-list .todo-item:hover {
       background: pink; }
+    .todo-list .todo-item.done {
+      text-decoration: line-through; }
 
 /*# sourceMappingURL=main.css.map */

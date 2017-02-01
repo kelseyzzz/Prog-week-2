@@ -68,19 +68,12 @@ p {
 	.todo-item{
 		padding: 10px 0;
 
-		&:after {
-			display: inline-block;
-			box-sizing: border-box;
-			content: "x";
-			padding: 8px;
-			background: red;
-			border-radius: 12px;
-			color: white;
-
-		}
-
 		&:hover {
 			background: pink
+		}
+
+		&.done {
+			text-decoration: line-through;
 		}
 
 	}
